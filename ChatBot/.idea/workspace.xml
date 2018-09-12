@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AndroidLayouts">
-    <shared>
-      <config />
-    </shared>
-  </component>
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2d3ba89-3b76-4728-b52b-eda07325e418" name="Default" comment="" />
+    <list default="true" id="49502534-9ec5-4d61-8f6a-7597102f8e73" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,120 +13,6 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
-  </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="ChatBot" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ChatActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/example/com/chatbot/view/ChatActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-109">
-              <caret line="110" column="27" lean-forward="true" selection-start-line="110" selection-start-column="27" selection-end-line="110" selection-end-column="27" />
-              <folding>
-                <element signature="e#1875#2021#0" expanded="true" />
-                <element signature="e#2020#2021#0" expanded="true" />
-                <element signature="e#3974#3975#0" expanded="true" />
-                <element signature="e#4018#4019#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChatActivityController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/example/com/chatbot/view/ChatActivityController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1051">
-              <caret line="74" column="29" lean-forward="false" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SharedPreferencesController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/example/com/chatbot/controllers/SharedPreferencesController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChatMessageContainer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/example/com/chatbot/model/ChatMessageContainer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NetworkController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/example/com/chatbot/controllers/NetworkController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-              <folding>
-                <element signature="e#1726#2025#0" expanded="true" />
-                <element signature="e#2024#2025#0" expanded="true" />
-                <element signature="e#2027#2269#0" expanded="true" />
-                <element signature="e#2268#2269#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="layoutResourceFile" />
-        <option value="resourceFile" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>@color/ColorPrimary</find>
-      <find>com.balysv.materialripple.MaterialRippleLayout</find>
-      <find>app</find>
-      <find>cont_send</find>
-      <find>KinderApplication</find>
-      <find>userJson</find>
-      <find>addChat</find>
-      <find>adapter</find>
-      <find>Log.d</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>#f00000</replace>
-      <replace>RelativeLayout</replace>
-      <replace>ChatBotApplication</replace>
-      <replace>chatJson</replace>
-    </replaceStrings>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -2665,48 +2543,11 @@
       </map>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/example/com/chatbot/ChatActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/example/com/chatbot/ChatBotApplication.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/example/com/chatbot/Controller/ChatController.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/example/com/chatbot/Controller/Router.java" />
-        <option value="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/example/com/chatbot/BuildConfig.java" />
-        <option value="$PROJECT_DIR$/gradle.properties" />
-        <option value="$PROJECT_DIR$/app/src/main/java/example/com/chatbot/Data/ChatMessage.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/example/com/chatbot/View/ChatAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/example/com/chatbot/Controller/NetworkController.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/rounded_msg.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/rounded_msg2.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/example/com/chatbot/Data/ChatMessageData.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/example/com/chatbot/Data/ChatThread.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/example/com/chatbot/Data/ChatMessageContainer.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/example/com/chatbot/Controller/SharedPreferencesController.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/example/com/chatbot/View/ChatActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/example/com/chatbot/utils/Utisl.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/example/com/chatbot/utils/Utils.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_chat.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_chat_msg.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/example/com/chatbot/utils/InternetReceiver.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/example/com/chatbot/view/ChatActivityController.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/example/com/chatbot/view/ChatActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/example/com/chatbot/controllers/SharedPreferencesController.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/example/com/chatbot/model/ChatMessageContainer.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/example/com/chatbot/controllers/NetworkController.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="797" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="AndroidView" proportions="" version="1">
       <flattenPackages />
@@ -2723,9 +2564,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -2733,84 +2571,19 @@
               <item name="ChatBot" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
             </path>
-            <path>
-              <item name="ChatBot" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="ChatBot" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="chatbot" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ChatBot" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="chatbot" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ChatBot" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="chatbot" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ChatBot" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="chatbot" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ChatBot" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="chatbot" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ChatBot" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="ChatBot" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="ChatBot" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/mallikapriyakhullar/Tech/ChatBot/app/src/main/java/example/com/chatbot/view/ChatActivityController.java&#10;item&#9;FILE&#9;file:///Users/mallikapriyakhullar/Tech/ChatBot/app/src/main/res/layout/item_chat_msg.xml&#10;colo&#9;FILE&#9;file:///Users/mallikapriyakhullar/Tech/ChatBot/app/src/main/res/values/colors.xml&#10;Mani&#9;FILE&#9;file:///Users/mallikapriyakhullar/Tech/ChatBot/app/src/main/AndroidManifest.xml&#10;S&#9;FILE&#9;file:///Users/mallikapriyakhullar/Tech/ChatBot/app/src/main/java/example/com/chatbot/controllers/SharedPreferencesController.java&#10;M&#9;FILE&#9;file:///Users/mallikapriyakhullar/Tech/ChatBot/app/src/main/AndroidManifest.xml&#10;ChatTh&#9;FILE&#9;file:///Users/mallikapriyakhullar/Tech/ChatBot/app/src/main/java/example/com/chatbot/Data/ChatThread.java&#10;Share&#9;FILE&#9;file:///Users/mallikapriyakhullar/Tech/ChatBot/app/src/main/java/example/com/chatbot/Controller/SharedPreferencesController.java&#10;colors&#9;FILE&#9;file:///Users/mallikapriyakhullar/Tech/ChatBot/app/src/main/res/values/colors.xml&#10;man&#9;FILE&#9;file:///Users/mallikapriyakhullar/Tech/ChatBot/app/src/main/AndroidManifest.xml&#10;ChatA&#9;FILE&#9;file:///Users/mallikapriyakhullar/Tech/ChatBot/app/src/main/java/example/com/chatbot/View/ChatActivity.java&#10;Man&#9;FILE&#9;file:///Users/mallikapriyakhullar/Tech/ChatBot/app/src/main/AndroidManifest.xml&#10;col&#9;FILE&#9;file:///Users/mallikapriyakhullar/Tech/ChatBot/app/src/main/res/values/colors.xml&#10;AndroidMani&#9;FILE&#9;file:///Users/mallikapriyakhullar/Tech/ChatBot/app/src/main/AndroidManifest.xml&#10;Manif&#9;FILE&#9;jar:///Users/mallikapriyakhullar/Library/Android/sdk/platforms/android-27/android.jar!/android/Manifest.class&#10;colors.xml&#9;FILE&#9;file:///Users/mallikapriyakhullar/Tech/ChatBot/app/src/main/res/values/colors.xml" />
-    <property name="device.picker.selection" value="4_WVGA_Nexus_S_API_26" />
-    <property name="android.profiler.active" value="true" />
-    <property name="DEBUGGABLE_DEVICE" value="motorola-xt1068-ZX1D64884G" />
-    <property name="DEBUGGABLE_PROCESS" value="example.com.chatbot" />
-    <property name="SHOW_ALL_PROCESSES" value="false" />
-    <property name="DEBUGGER_ID" value="Auto" />
-  </component>
-  <component name="RecentsManager">
-    <key name="android.template.packageName">
-      <recent name="example.com.chatbot" />
-    </key>
-    <key name="android.template.parentActivityClass">
-      <recent name="" />
-    </key>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -2848,7 +2621,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
@@ -2983,698 +2756,53 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e2d3ba89-3b76-4728-b52b-eda07325e418" name="Default" comment="" />
-      <created>1536738412207</created>
+      <changelist id="49502534-9ec5-4d61-8f6a-7597102f8e73" name="Default" comment="" />
+      <created>1536779677473</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1536738412207</updated>
+      <updated>1536779677473</updated>
     </task>
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="23" width="1440" height="797" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4138439" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39911634" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39911634" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4138439" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/example/com/chatbot/view/ChatActivity.java</url>
-          <line>79</line>
-          <properties />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/example/com/chatbot/view/ChatActivity.java</url>
-          <line>60</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/example/com/chatbot/view/ChatActivity.java</url>
-          <line>104</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/example/com/chatbot/view/ChatActivityController.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/example/com/chatbot/view/ChatActivityController.java</url>
-          <line>74</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="10" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>getJSONArray(prefs_trackers.getString(Str.allChats, &quot;[]&quot;))</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>prefs_trackers.getString(Str.allChats, &quot;[]&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>SharedPreferencesController.getInstance(this).getAllChats()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-27/android.jar!/android/Manifest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="48" lean-forward="false" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-          <folding>
-            <marker date="1529789488000" expanded="true" signature="0:104" ph="/.../" />
-            <marker date="1529789488000" expanded="false" signature="175:186" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="222:228" ph=" }" />
-            <marker date="1529789488000" expanded="true" signature="277:1107" ph="{...}" />
-            <marker date="1529789488000" expanded="false" signature="1040:1055" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="1091:1101" ph=" }" />
-            <marker date="1529789488000" expanded="true" signature="1150:15828" ph="{...}" />
-            <marker date="1529789488000" expanded="true" signature="2588:2606" ph="/**...*/" />
-            <marker date="1529789488000" expanded="true" signature="7973:7991" ph="/**...*/" />
-            <marker date="1529789488000" expanded="true" signature="9860:9878" ph="/**...*/" />
-            <marker date="1529789488000" expanded="true" signature="10570:10588" ph="/**...*/" />
-            <marker date="1529789488000" expanded="true" signature="12577:12595" ph="/**...*/" />
-            <marker date="1529789488000" expanded="true" signature="13273:13291" ph="/**...*/" />
-            <marker date="1529789488000" expanded="false" signature="15761:15776" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="15812:15822" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.volley/volley/1.1.1/3fb00d0da53c4e9f35a519da6e22bc2de7463816/volley-1.1.1-sources.jar!/com/android/volley/toolbox/JsonObjectRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="44" column="11" lean-forward="false" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/example/com/chatbot/ChatBotApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1175#1176#0" expanded="false" />
-            <element signature="e#1217#1218#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-27/android.jar!/java/lang/CharSequence.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding>
-            <marker date="1529789488000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1529789488000" expanded="false" signature="345:356" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="392:398" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="434:445" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="481:487" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-27/android.jar!/android/widget/EditText.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <marker date="1529789488000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1529789488000" expanded="false" signature="138:354" ph="..." />
-            <marker date="1529789488000" expanded="true" signature="434:542" ph="{...}" />
-            <marker date="1529789488000" expanded="true" signature="601:709" ph="{...}" />
-            <marker date="1529789488000" expanded="true" signature="786:894" ph="{...}" />
-            <marker date="1529789488000" expanded="true" signature="988:1096" ph="{...}" />
-            <marker date="1529789488000" expanded="false" signature="1133:1144" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="1180:1186" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="1230:1241" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="1277:1283" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="1340:1351" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="1387:1393" ph=" }" />
-            <marker date="1529789488000" expanded="true" signature="1424:1435" ph=" { " />
-            <marker date="1529789488000" expanded="true" signature="1471:1477" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="1538:1549" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="1585:1591" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="1642:1653" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="1689:1695" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="1736:1747" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="1783:1789" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="1818:1829" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="1865:1871" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="1915:1926" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="1962:1968" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="2019:2030" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="2066:2072" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="2125:2136" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="2172:2178" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-26/android/widget/EditText.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="107" column="33" lean-forward="false" selection-start-line="107" selection-start-column="33" selection-end-line="107" selection-end-column="33" />
-          <folding>
-            <element signature="e#3792#3793#0" expanded="false" />
-            <element signature="e#3841#3842#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-26/android/widget/TextView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="2247" column="69" lean-forward="false" selection-start-line="2247" selection-start-column="69" selection-end-line="2247" selection-end-column="69" />
-          <folding>
-            <element signature="e#94097#94098#0" expanded="false" />
-            <element signature="e#94125#94126#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-27/android.jar!/java/lang/Enum.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-27/android.jar!/java/lang/Throwable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-          <folding>
-            <marker date="1529789488000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1529789488000" expanded="false" signature="133:210" ph="..." />
-            <marker date="1529789488000" expanded="false" signature="283:294" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="330:336" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="374:385" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="421:427" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="482:493" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="529:535" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="574:585" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="621:627" ph=" }" />
-            <marker date="1529789488000" expanded="true" signature="741:793" ph="{...}" />
-            <marker date="1529789488000" expanded="true" signature="825:836" ph=" { " />
-            <marker date="1529789488000" expanded="true" signature="872:878" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="919:930" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="966:972" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="1018:1029" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="1065:1071" ph=" }" />
-            <marker date="1529789488000" expanded="true" signature="1134:1186" ph="{...}" />
-            <marker date="1529789488000" expanded="false" signature="1216:1227" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="1263:1269" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="1304:1315" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="1351:1357" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="1405:1416" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="1452:1458" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="1506:1517" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="1553:1559" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="1613:1624" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="1660:1666" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="1714:1725" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="1761:1767" ph=" }" />
-            <marker date="1529789488000" expanded="true" signature="1831:1883" ph="{...}" />
-            <marker date="1529789488000" expanded="true" signature="1955:2007" ph="{...}" />
-            <marker date="1529789488000" expanded="false" signature="2066:2077" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="2113:2119" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/example/com/chatbot/BuildConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/example/com/chatbot/controllers/Router.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/bot.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/example/com/chatbot/controllers/ChatController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="18" lean-forward="false" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/rounded_msg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-27/android.jar!/org/json/JSONArray.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-          <folding>
-            <marker date="1529789488000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1529789488000" expanded="false" signature="202:213" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="249:255" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="298:309" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="345:351" ph=" }" />
-            <marker date="1529789488000" expanded="true" signature="417:469" ph="{...}" />
-            <marker date="1529789488000" expanded="true" signature="526:578" ph="{...}" />
-            <marker date="1529789488000" expanded="true" signature="636:688" ph="{...}" />
-            <marker date="1529789488000" expanded="false" signature="713:724" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="760:766" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="807:818" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="854:860" ph=" }" />
-            <marker date="1529789488000" expanded="true" signature="922:974" ph="{...}" />
-            <marker date="1529789488000" expanded="false" signature="1011:1022" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="1058:1064" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="1102:1113" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="1149:1155" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="1195:1206" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="1242:1248" ph=" }" />
-            <marker date="1529789488000" expanded="true" signature="1322:1374" ph="{...}" />
-            <marker date="1529789488000" expanded="true" signature="1447:1499" ph="{...}" />
-            <marker date="1529789488000" expanded="true" signature="1569:1621" ph="{...}" />
-            <marker date="1529789488000" expanded="true" signature="1692:1744" ph="{...}" />
-            <marker date="1529789488000" expanded="true" signature="1817:1869" ph="{...}" />
-            <marker date="1529789488000" expanded="false" signature="1907:1918" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="1954:1960" ph=" }" />
-            <marker date="1529789488000" expanded="true" signature="2016:2068" ph="{...}" />
-            <marker date="1529789488000" expanded="false" signature="2102:2113" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="2149:2155" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="2192:2203" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="2239:2245" ph=" }" />
-            <marker date="1529789488000" expanded="true" signature="2309:2361" ph="{...}" />
-            <marker date="1529789488000" expanded="false" signature="2403:2414" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="2450:2456" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="2516:2527" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="2563:2569" ph=" }" />
-            <marker date="1529789488000" expanded="true" signature="2631:2683" ph="{...}" />
-            <marker date="1529789488000" expanded="false" signature="2723:2734" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="2770:2776" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="2833:2844" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="2880:2886" ph=" }" />
-            <marker date="1529789488000" expanded="true" signature="2942:2994" ph="{...}" />
-            <marker date="1529789488000" expanded="false" signature="3028:3039" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="3075:3081" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="3129:3140" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="3176:3182" ph=" }" />
-            <marker date="1529789488000" expanded="true" signature="3240:3292" ph="{...}" />
-            <marker date="1529789488000" expanded="false" signature="3328:3339" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="3375:3381" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="3432:3443" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="3479:3485" ph=" }" />
-            <marker date="1529789488000" expanded="true" signature="3547:3599" ph="{...}" />
-            <marker date="1529789488000" expanded="false" signature="3639:3650" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="3686:3692" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="3749:3760" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="3796:3802" ph=" }" />
-            <marker date="1529789488000" expanded="true" signature="3870:3922" ph="{...}" />
-            <marker date="1529789488000" expanded="false" signature="3968:3979" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="4015:4021" ph=" }" />
-            <marker date="1529789488000" expanded="true" signature="4091:4143" ph="{...}" />
-            <marker date="1529789488000" expanded="false" signature="4191:4202" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="4238:4244" ph=" }" />
-            <marker date="1529789488000" expanded="true" signature="4319:4371" ph="{...}" />
-            <marker date="1529789488000" expanded="true" signature="4435:4487" ph="{...}" />
-            <marker date="1529789488000" expanded="false" signature="4517:4528" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="4564:4570" ph=" }" />
-            <marker date="1529789488000" expanded="true" signature="4638:4690" ph="{...}" />
-            <marker date="1529789488000" expanded="false" signature="4727:4738" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="4774:4780" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="4807:4818" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="4854:4860" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/example/com/chatbot/model/ChatMessageData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="62" column="34" lean-forward="false" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-27/android.jar!/org/json/JSONObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-          <folding>
-            <marker date="1529789488000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1529789488000" expanded="false" signature="132:173" ph="..." />
-            <marker date="1529789488000" expanded="false" signature="269:280" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="316:322" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="359:370" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="406:412" ph=" }" />
-            <marker date="1529789488000" expanded="true" signature="479:531" ph="{...}" />
-            <marker date="1529789488000" expanded="true" signature="589:641" ph="{...}" />
-            <marker date="1529789488000" expanded="true" signature="723:775" ph="{...}" />
-            <marker date="1529789488000" expanded="false" signature="800:811" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="847:853" ph=" }" />
-            <marker date="1529789488000" expanded="true" signature="930:982" ph="{...}" />
-            <marker date="1529789488000" expanded="true" signature="1058:1110" ph="{...}" />
-            <marker date="1529789488000" expanded="true" signature="1183:1235" ph="{...}" />
-            <marker date="1529789488000" expanded="true" signature="1309:1361" ph="{...}" />
-            <marker date="1529789488000" expanded="true" signature="1437:1489" ph="{...}" />
-            <marker date="1529789488000" expanded="true" signature="1568:1620" ph="{...}" />
-            <marker date="1529789488000" expanded="true" signature="1703:1755" ph="{...}" />
-            <marker date="1529789488000" expanded="false" signature="1794:1805" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="1841:1847" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="1887:1898" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="1934:1940" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="1977:1988" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="2024:2030" ph=" }" />
-            <marker date="1529789488000" expanded="true" signature="2088:2140" ph="{...}" />
-            <marker date="1529789488000" expanded="false" signature="2176:2187" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="2223:2229" ph=" }" />
-            <marker date="1529789488000" expanded="true" signature="2295:2347" ph="{...}" />
-            <marker date="1529789488000" expanded="false" signature="2391:2402" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="2438:2444" ph=" }" />
-            <marker date="1529789488000" expanded="true" signature="2507:2559" ph="{...}" />
-            <marker date="1529789488000" expanded="true" signature="2623:2675" ph="{...}" />
-            <marker date="1529789488000" expanded="false" signature="2717:2728" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="2764:2770" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="2829:2840" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="2876:2882" ph=" }" />
-            <marker date="1529789488000" expanded="true" signature="2940:2992" ph="{...}" />
-            <marker date="1529789488000" expanded="false" signature="3028:3039" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="3075:3081" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="3131:3142" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="3178:3184" ph=" }" />
-            <marker date="1529789488000" expanded="true" signature="3244:3296" ph="{...}" />
-            <marker date="1529789488000" expanded="false" signature="3334:3345" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="3381:3387" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="3440:3451" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="3487:3493" ph=" }" />
-            <marker date="1529789488000" expanded="true" signature="3557:3609" ph="{...}" />
-            <marker date="1529789488000" expanded="false" signature="3651:3662" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="3698:3704" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="3763:3774" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="3810:3816" ph=" }" />
-            <marker date="1529789488000" expanded="true" signature="3886:3938" ph="{...}" />
-            <marker date="1529789488000" expanded="false" signature="3986:3997" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="4033:4039" ph=" }" />
-            <marker date="1529789488000" expanded="true" signature="4111:4163" ph="{...}" />
-            <marker date="1529789488000" expanded="false" signature="4213:4224" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="4260:4266" ph=" }" />
-            <marker date="1529789488000" expanded="true" signature="4339:4391" ph="{...}" />
-            <marker date="1529789488000" expanded="false" signature="4427:4438" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="4474:4480" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="4510:4521" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="4557:4563" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="4593:4604" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="4640:4646" ph=" }" />
-            <marker date="1529789488000" expanded="true" signature="4714:4766" ph="{...}" />
-            <marker date="1529789488000" expanded="true" signature="4844:4896" ph="{...}" />
-            <marker date="1529789488000" expanded="false" signature="4941:4952" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="4988:4994" ph=" }" />
-            <marker date="1529789488000" expanded="false" signature="5035:5046" ph=" { " />
-            <marker date="1529789488000" expanded="false" signature="5082:5088" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/example/com/chatbot/utils/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/rounded_msg2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/example/com/chatbot/view/ChatAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="56" column="29" lean-forward="false" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/example/com/chatbot/utils/InternetReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="32" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#493#494#0" expanded="false" />
-            <element signature="e#533#534#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/recyclerview-v7/27.1.1/ad225a74247e675db0b05ea4f8b17202acbb7f9d/recyclerview-v7-27.1.1-sources.jar!/android/support/v7/widget/LinearLayoutManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-993">
-          <caret line="1017" column="16" lean-forward="false" selection-start-line="1017" selection-start-column="16" selection-end-line="1017" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/recyclerview-v7/27.1.1/ad225a74247e675db0b05ea4f8b17202acbb7f9d/recyclerview-v7-27.1.1-sources.jar!/android/support/v7/widget/RecyclerView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="7057" column="38" lean-forward="false" selection-start-line="7057" selection-start-column="38" selection-end-line="7057" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/example/com/chatbot/model/ChatThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="27" column="48" lean-forward="false" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_chat.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_chat_msg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="24" column="40" lean-forward="false" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/example/com/chatbot/view/ChatActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-109">
-          <caret line="110" column="27" lean-forward="true" selection-start-line="110" selection-start-column="27" selection-end-line="110" selection-end-column="27" />
-          <folding>
-            <element signature="e#1875#2021#0" expanded="true" />
-            <element signature="e#2020#2021#0" expanded="true" />
-            <element signature="e#3974#3975#0" expanded="true" />
-            <element signature="e#4018#4019#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/example/com/chatbot/view/ChatActivityController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1051">
-          <caret line="74" column="29" lean-forward="false" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/example/com/chatbot/controllers/SharedPreferencesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/example/com/chatbot/model/ChatMessageContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/example/com/chatbot/controllers/NetworkController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="e#1726#2025#0" expanded="true" />
-            <element signature="e#2024#2025#0" expanded="true" />
-            <element signature="e#2027#2269#0" expanded="true" />
-            <element signature="e#2268#2269#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
