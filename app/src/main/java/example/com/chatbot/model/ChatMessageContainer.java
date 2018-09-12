@@ -11,9 +11,6 @@ public class ChatMessageContainer {
     String errorMsg;
     int success;
     SenderType sender = SenderType.SENDER_BOT;
-
-
-
     boolean isPending;
 
     public static String SUCCESS = "success";

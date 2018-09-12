@@ -106,7 +106,6 @@ public class SharedPreferencesController {
     public void refreshAllChats(ChatThread thread){
         JSONArray unsentChats = new JSONArray();
         for(ChatMessageContainer msg : thread.getThreads()) unsentChats.put(msg.putToJSON());
-        Log.d("\n\n\n\nTIME TO REFRESH", unsentChats.toString());
         SharedPreferences.Editor editor = prefs_trackers.edit();
         editor.putString( Str.allChats, unsentChats.toString());
         editor.apply();

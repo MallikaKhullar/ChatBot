@@ -37,7 +37,7 @@ public class NetworkController {
             params.put(PARAM_EXT_ID, BuildConfig.ExtId);
             params.put(PARAM_BOT_ID, BuildConfig.BotId);
         } catch (JSONException e) {
-            // TODO - log error msg
+            // can error-handle here
             e.printStackTrace();
         }
 
@@ -57,25 +57,25 @@ public class NetworkController {
                 new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
-                        Log.d("RESP", response.toString());
                         if(callback!=null) callback.onResponse(response);
+
+                        //put analytics stuff here
                     }
                 }, new Response.ErrorListener() {
 
             @Override
             public void onErrorResponse(VolleyError error) {
-                Log.d("RESP", "" + error.getMessage());
                 if(callback!=null) callback.onError(error);
+
+                //put analytics stuff here
             }
         });
 
-        Log.d("Final Obj", jsonObjReq.toString());
         ChatBotApplication.getInstance().addToRequestQueue(jsonObjReq);
-        // TODO - add request to JSON Q here
     }
 
     /**
-     * Builds upon the JSON request (adds the API key, ChatBot key etc)
+     * Builds upon the JSON request (adds the API key, ChatBot key etc) for POST CALL
      * @param key
      * @param val
      * @param params
