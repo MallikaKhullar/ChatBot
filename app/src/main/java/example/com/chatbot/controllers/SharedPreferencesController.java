@@ -2,6 +2,14 @@ package example.com.chatbot.Controller;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.util.Log;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import example.com.chatbot.Data.ChatMessageContainer;
+import example.com.chatbot.Data.ChatThread;
 
 /**
  * Created by Mallika Priya Khullar on 12/09/18.
@@ -81,11 +89,65 @@ public class SharedPreferencesController {
         editor.apply();
     }
 
+    public void addToUnsentChats(ChatMessageContainer chat){
+        JSONArray unsentChats = null;
+        try {
+            unsentChats = new JSONArray(prefs_trackers.getString(Str.chatsUnsent, "[]"));
+            if(unsentChats == null || unsentChats.length() == 0) unsentChats = new JSONArray();
+            unsentChats.put(chat.putToJSON());
+            SharedPreferences.Editor editor = prefs_trackers.edit();
+            editor.putString( Str.allChats, unsentChats.toString());
+            Log.d("unsent", unsentChats.toString());
+            editor.apply();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void addToAllChats(ChatMessageContainer chat){
+        JSONArray unsentChats = null;
+        try {
+            unsentChats = new JSONArray(prefs_trackers.getString(Str.allChats, "[]"));
+            if(unsentChats == null || unsentChats.length() == 0) unsentChats = new JSONArray();
+            unsentChats.put(chat.putToJSON());
+            SharedPreferences.Editor editor = prefs_trackers.edit();
+            editor.putString( Str.allChats, unsentChats.toString());
+            editor.apply();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public ChatThread getAllChats(){
+        JSONArray allChats = null;
+        try {
+            allChats = new JSONArray(prefs_trackers.getString(Str.allChats, "[]"));
+
+            if(allChats == null || allChats.length() == 0) allChats = new JSONArray();
+            return ChatThread.getFromJSON(allChats);
+        } catch (JSONException e) {
+            e.printStackTrace();
+            return new ChatThread();
+        }
+    }
+
+    private JSONObject getJSONObject(String str){
+        JSONObject obj = new JSONObject();
+        try {
+            obj = new JSONObject(getString(str,"{}"));
+        } catch (JSONException e) {e.printStackTrace();}
+        finally {
+            return obj;
+        }
+    }
+
+
     private enum PrefsTypes {TRACKERS} //all different bundles of prefs stored
 
     //Holder for all strings used
     public static class Str {
-        public static String currentLevel = "currentLevel";
+        public static String chatsUnsent = "chatsUnsent";
+        public static String allChats = "allChats";
     }
 }
 
