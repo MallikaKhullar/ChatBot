@@ -18,7 +18,19 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField('String', "ApiKey", ApiKey)
+            buildConfigField('String', "ExtId", ExtId)
+            buildConfigField('String', "BotId", BotId)
         }
+        defaultConfig {
+            buildConfigField('String', "ApiKey", ApiKey)
+            buildConfigField('String', "ExtId", ExtId)
+            buildConfigField('String', "BotId", BotId)
+        }
+        debug {
+            buildConfigField('String', "ApiKey", ApiKey)
+            buildConfigField('String', "ExtId", ExtId)
+            buildConfigField('String', "BotId", BotId)        }
     }
 }
 
