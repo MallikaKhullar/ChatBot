@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/cont_sendmessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <EditText
+            android:id="@+id/etMsg"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:hint="Write to your doctor ..."
+            android:imeOptions="actionSend|flagNoEnterAction"
+            android:inputType="textAutoCorrect|textCapSentences|textMultiLine"
+            android:maxLength="2000"
+            android:maxLines="6"
+            android:paddingLeft="12dp"
+            android:paddingRight="26dp"
+            android:scrollbars="vertical"
+            android:textSize="16sp" />
+
+
+        <ImageButton
+            android:id="@+id/btnSend"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="4dp"
+            android:background="#00000000"
+            android:padding="12dp"
+            android:scaleType="fitXY"
+            android:src="@android:drawable/presence_away"
+            android:text="Send"
+            android:textColor="#ff07c6ff" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
