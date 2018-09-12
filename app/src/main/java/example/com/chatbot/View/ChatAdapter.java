@@ -1,21 +1,15 @@
 package example.com.chatbot.View;
 
-import android.app.Activity;
 import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.support.v7.widget.RecyclerView;
-import android.util.Base64;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import java.util.HashMap;
-
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import example.com.chatbot.Data.ChatMessage;
+import example.com.chatbot.Data.ChatMessageContainer;
 import example.com.chatbot.Data.ChatThread;
 import example.com.chatbot.R;
 
@@ -45,7 +39,7 @@ public class ChatAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     @Override
     public int getItemViewType(int position) {
-        return thread.getThreads().get(position).sender.equals(ChatMessage.SenderType.SENDER_ME) ? ChatActivity.VIEW_MY_MSG : ChatActivity.VIEW_BOT_MSG;
+        return thread.getThreads().get(position).getSender().equals(ChatMessageContainer.SenderType.SENDER_ME) ? ChatActivity.VIEW_MY_MSG : ChatActivity.VIEW_BOT_MSG;
     }
 
     @Override
@@ -56,9 +50,10 @@ public class ChatAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     public static class ChatViewHolder extends RecyclerView.ViewHolder {
 
 
+        @BindView(R.id.tvBotMsg) TextView tvBotMsg;
+        @BindView(R.id.tvMyMsg) TextView tvMyMsg;
         @BindView(R.id.rvBotMsg) View rvBotMsg;
         @BindView(R.id.rvMyMsg) View rvMyMsg;
-//        @BindView(R.id.rvBotMsg) View tvMsg;
         public View mainView;
 
 
@@ -68,21 +63,27 @@ public class ChatAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
             ButterKnife.bind(this, mainView);
         }
 
-        void inflate(ChatMessage message){
-            showMainView(message.sender);
-        }
-
-        void showMainView(ChatMessage.SenderType sender) {
-            switch(sender) {
+        void inflate(ChatMessageContainer message){
+            switch(message.getSender()) {
                 case SENDER_BOT:
-                    rvBotMsg.setVisibility(View.VISIBLE);
-                rvMyMsg.setVisibility(View.GONE);
+                        showBotView(message);
                     break;
                 case SENDER_ME:
-                    rvBotMsg.setVisibility(View.GONE);
-                    rvMyMsg.setVisibility(View.VISIBLE);
+                        showMyView(message);
                     break;
             }
+        }
+
+        void showBotView(ChatMessageContainer message) {
+            rvBotMsg.setVisibility(View.VISIBLE);
+            rvMyMsg.setVisibility(View.GONE);
+            tvBotMsg.setText(message.getMessage().getMessage());
+        }
+
+        void showMyView(ChatMessageContainer message) {
+            rvBotMsg.setVisibility(View.GONE);
+            rvMyMsg.setVisibility(View.VISIBLE);
+            tvMyMsg.setText(message.getMessage().getMessage());
         }
     }
 

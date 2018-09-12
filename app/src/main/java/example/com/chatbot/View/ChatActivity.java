@@ -18,7 +18,8 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import example.com.chatbot.Controller.ChatController;
 import example.com.chatbot.Controller.NetworkController;
-import example.com.chatbot.Data.ChatMessage;
+import example.com.chatbot.Data.ChatMessageContainer;
+import example.com.chatbot.Data.ChatMessageData;
 import example.com.chatbot.Data.ChatThread;
 import example.com.chatbot.R;
 
@@ -38,16 +39,19 @@ public class ChatActivity extends AppCompatActivity {
 
     @OnClick(R.id.btnSend)
     void sendClicked() {
+        Log.d("La", "yes");
         String getMsg = etMsg.getText().toString();
         etMsg.setText("");
         if (getMsg.length() > 0) {
-            addChat(new ChatMessage(), true); // my message
+            addChat(new ChatMessageContainer()
+                    .setSender(ChatMessageContainer.SenderType.SENDER_ME)
+                    .setMessage(new ChatMessageData(getMsg)), true); // my message
 
             ChatController.getInstance().sendMessage(getMsg, new NetworkController.NetworkCallback() {
                 @Override
                 public void onResponse(JSONObject response) {
-                    addChat(new ChatMessage(), false); // my message
-                    Log.d("Response s", response.toString());
+                    Log.d("La", "yelkjls");
+                    addChat(ChatMessageContainer.getFromJSON(response), true); // my message
                 }
 
                 @Override
@@ -90,9 +94,10 @@ public class ChatActivity extends AppCompatActivity {
         recyclerChat.setVisibility(show?View.GONE:View.VISIBLE);
     }
 
-    void addChat(ChatMessage newMessage, boolean scroll){
+    void addChat(ChatMessageContainer newMessage, boolean scroll){
         showEmptyLayout(false);
         thread.getThreads().add(newMessage);
+        Log.d("La", "kjjh");
         recyclerChat.getAdapter().notifyDataSetChanged();
         if(scroll)linearLayoutManager.scrollToPosition(thread.getThreads().size() - 1);
     }
