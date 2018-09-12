@@ -13,5 +13,5 @@ public class ChatMessage {
         SENDER_ME, SENDER_BOT
     }
 
-    public SenderType sender;
+    public SenderType sender = SenderType.SENDER_BOT;
 }

@@ -4,7 +4,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.EditText;
 
 import com.android.volley.VolleyError;
@@ -34,27 +36,25 @@ public class ChatActivity extends AppCompatActivity {
     public static final int VIEW_BOT_MSG = 1;
 
 
-
     @OnClick(R.id.btnSend)
     void sendClicked() {
         String getMsg = etMsg.getText().toString();
         etMsg.setText("");
         if (getMsg.length() > 0) {
-            addChat(new ChatMessage()); // my message
+            addChat(new ChatMessage(), true); // my message
 
             ChatController.getInstance().sendMessage(getMsg, new NetworkController.NetworkCallback() {
                 @Override
                 public void onResponse(JSONObject response) {
-                    addChat(new ChatMessage()); // my message
+                    addChat(new ChatMessage(), false); // my message
+                    Log.d("Response s", response.toString());
                 }
 
                 @Override
                 public void onError(VolleyError error) {
-
+                    // please type in a message TOAST / feedback
                 }
             });
-        } else {
-            // please type in a message TOAST / feedback
         }
     }
 
@@ -69,6 +69,7 @@ public class ChatActivity extends AppCompatActivity {
     void initView() {
         setContentView(R.layout.activity_chat);
         ButterKnife.bind(this);
+        this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
     }
 
     void fetchChats(){
@@ -89,10 +90,10 @@ public class ChatActivity extends AppCompatActivity {
         recyclerChat.setVisibility(show?View.GONE:View.VISIBLE);
     }
 
-    void addChat(ChatMessage newMessage){
+    void addChat(ChatMessage newMessage, boolean scroll){
         showEmptyLayout(false);
         thread.getThreads().add(newMessage);
         recyclerChat.getAdapter().notifyDataSetChanged();
-        linearLayoutManager.scrollToPosition(thread.getThreads().size() - 1);
+        if(scroll)linearLayoutManager.scrollToPosition(thread.getThreads().size() - 1);
     }
 }
