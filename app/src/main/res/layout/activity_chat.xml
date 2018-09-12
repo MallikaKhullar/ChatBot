@@ -76,7 +76,7 @@
             android:background="#00000000"
             android:padding="12dp"
             android:scaleType="fitXY"
-            android:src="@android:drawable/presence_away"
+            android:src="@drawable/arrow"
             android:text="Send"
             android:textColor="#ff07c6ff" />
 

@@ -43,7 +43,8 @@ public class ChatAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     @Override
     public int getItemViewType(int position) {
-        return thread.getThreads().get(position).sender.equals(ChatMessage.SenderType.SENDER_ME) ? ChatActivity.VIEW_MY_MSG : ChatActivity.VIEW_BOT_MSG;
+        return ChatActivity.VIEW_BOT_MSG;
+//        return thread.getThreads().get(position).sender.equals(ChatMessage.SenderType.SENDER_ME) ? ChatActivity.VIEW_MY_MSG : ChatActivity.VIEW_BOT_MSG;
     }
 
     @Override

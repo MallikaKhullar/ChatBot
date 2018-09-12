@@ -38,11 +38,14 @@ public class ChatActivity extends AppCompatActivity {
     @OnClick(R.id.btnSend)
     void sendClicked() {
         String getMsg = etMsg.getText().toString();
+        etMsg.setText("");
         if (getMsg.length() > 0) {
+            addChat(new ChatMessage()); // my message
+
             ChatController.getInstance().sendMessage(getMsg, new NetworkController.NetworkCallback() {
                 @Override
                 public void onResponse(JSONObject response) {
-
+                    addChat(new ChatMessage()); // my message
                 }
 
                 @Override
@@ -59,6 +62,7 @@ public class ChatActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         initView();
+        thread = new ChatThread();
         fetchChats();
     }
 
@@ -74,12 +78,10 @@ public class ChatActivity extends AppCompatActivity {
         // ELSE
         showEmptyLayout(true);
 
-
         linearLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
         recyclerChat.setLayoutManager(linearLayoutManager);
         adapter = new ChatAdapter(this, thread);
         recyclerChat.setAdapter(adapter);
-
     }
 
     void showEmptyLayout(boolean show) {
@@ -88,6 +90,7 @@ public class ChatActivity extends AppCompatActivity {
     }
 
     void addChat(ChatMessage newMessage){
+        showEmptyLayout(false);
         thread.getThreads().add(newMessage);
         recyclerChat.getAdapter().notifyDataSetChanged();
         linearLayoutManager.scrollToPosition(thread.getThreads().size() - 1);
