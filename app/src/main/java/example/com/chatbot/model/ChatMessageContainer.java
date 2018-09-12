@@ -13,10 +13,14 @@ public class ChatMessageContainer {
     SenderType sender = SenderType.SENDER_BOT;
 
 
+
+    boolean isPending;
+
     public static String SUCCESS = "success";
     public static String SENDER = "sender";
     public static String ERROR = "errorMessage";
     public static String MESSAGE = "message";
+    public static String PENDING = "pending";
 
     public ChatMessageContainer() {
     }
@@ -45,6 +49,10 @@ public class ChatMessageContainer {
         return sender;
     }
 
+    public boolean isPending() {
+        return isPending;
+    }
+
     public enum SenderType {
         SENDER_ME(0), SENDER_BOT(1);
 
@@ -62,6 +70,7 @@ public class ChatMessageContainer {
         }
     }
 
+
     public ChatMessageContainer setMessage(ChatMessageData message) {
         this.message = message;
         return this;
@@ -74,6 +83,11 @@ public class ChatMessageContainer {
 
     public ChatMessageContainer setSuccess(int success) {
         this.success = success;
+        return this;
+    }
+
+    public ChatMessageContainer setPending(boolean isPending) {
+        this.isPending = isPending;
         return this;
     }
 
@@ -94,6 +108,9 @@ public class ChatMessageContainer {
             if(chatJson.has(SENDER)) chat.setSender(SenderType.getType(chatJson.getInt(SENDER)));
             else chat.setSender(SenderType.SENDER_BOT);
 
+            if(chatJson.has(PENDING)) chat.setPending(chatJson.getBoolean(PENDING));
+            else chat.setPending(false);
+
             return chat;
         } catch (JSONException e) {
             return null;
@@ -108,6 +125,7 @@ public class ChatMessageContainer {
             jsonObject.put(ERROR, errorMsg);
             jsonObject.put(MESSAGE, message.putToJSON());
             jsonObject.put(SENDER, sender.getValue());
+            jsonObject.put(PENDING, isPending);
             return jsonObject;
         } catch (JSONException e) {
             return null;

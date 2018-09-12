@@ -89,21 +89,6 @@ public class SharedPreferencesController {
         editor.apply();
     }
 
-    public void addToUnsentChats(ChatMessageContainer chat){
-        JSONArray unsentChats = null;
-        try {
-            unsentChats = new JSONArray(prefs_trackers.getString(Str.chatsUnsent, "[]"));
-            if(unsentChats == null || unsentChats.length() == 0) unsentChats = new JSONArray();
-            unsentChats.put(chat.putToJSON());
-            SharedPreferences.Editor editor = prefs_trackers.edit();
-            editor.putString( Str.allChats, unsentChats.toString());
-            Log.d("unsent", unsentChats.toString());
-            editor.apply();
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
-    }
-
     public void addToAllChats(ChatMessageContainer chat){
         JSONArray unsentChats = null;
         try {
@@ -118,10 +103,19 @@ public class SharedPreferencesController {
         }
     }
 
-    public ChatThread getAllChats(){
+    public void refreshAllChats(ChatThread thread){
+        JSONArray unsentChats = new JSONArray();
+        for(ChatMessageContainer msg : thread.getThreads()) unsentChats.put(msg.putToJSON());
+        Log.d("\n\n\n\nTIME TO REFRESH", unsentChats.toString());
+        SharedPreferences.Editor editor = prefs_trackers.edit();
+        editor.putString( Str.allChats, unsentChats.toString());
+        editor.apply();
+    }
+
+    public ChatThread getAllChats(String chats){
         JSONArray allChats = null;
         try {
-            allChats = new JSONArray(prefs_trackers.getString(Str.allChats, "[]"));
+            allChats = new JSONArray(prefs_trackers.getString(chats, "[]"));
 
             if(allChats == null || allChats.length() == 0) allChats = new JSONArray();
             return ChatThread.getFromJSON(allChats);
@@ -146,7 +140,6 @@ public class SharedPreferencesController {
 
     //Holder for all strings used
     public static class Str {
-        public static String chatsUnsent = "chatsUnsent";
         public static String allChats = "allChats";
     }
 }
