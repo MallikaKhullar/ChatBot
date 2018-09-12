@@ -8,5 +8,5 @@
 <img src="img15.png" width="288" height="512">
 
 ## Version 3 - Retry on Internet
-<img src="img16.png" width="360" height="640"><img src="img17.png" width="360" height="640">
+<img src="img16.png" width="360" height="640">     <img src="img17.png" width="360" height="640">
 
