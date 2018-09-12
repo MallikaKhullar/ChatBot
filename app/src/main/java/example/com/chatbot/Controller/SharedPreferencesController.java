@@ -86,7 +86,6 @@ public class SharedPreferencesController {
     //Holder for all strings used
     public static class Str {
         public static String currentLevel = "currentLevel";
-
     }
 }
 

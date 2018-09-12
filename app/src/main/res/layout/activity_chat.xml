@@ -1,12 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#fff"
     android:orientation="vertical">
 
+    <RelativeLayout
+        android:gravity="center"
+        android:id="@+id/emptyLayout"
+        android:visibility="gone"
+        android:layout_above="@+id/cont_sendmessage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/bot"
+            android:src="@drawable/bot"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_below="@+id/bot"
+            android:text="Start a chat with the bot!"
+            android:textColor="@color/grey"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:gravity="center"
+        android:visibility="gone"
+        android:id="@+id/chatContainerLayout"
+        android:layout_above="@+id/cont_sendmessage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_margin="10dp"
+            android:text="SContainer!"
+            android:textColor="@color/grey"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
 
     <LinearLayout
         android:id="@+id/cont_sendmessage"

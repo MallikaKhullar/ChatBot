@@ -9,6 +9,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import example.com.chatbot.BuildConfig;
+import example.com.chatbot.ChatBotApplication;
 
 /**
  * Created by Mallika Priya Khullar on 12/09/18.
@@ -60,6 +61,7 @@ public class NetworkController {
             }
         });
 
+        ChatBotApplication.getInstance().addToRequestQueue(jsonObjReq);
         // TODO - add request to JSON Q here
     }
 
