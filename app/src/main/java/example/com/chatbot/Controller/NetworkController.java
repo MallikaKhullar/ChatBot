@@ -41,9 +41,10 @@ public class NetworkController {
             e.printStackTrace();
         }
 
+
         String url = Router.sendMessage();
         addNewRequest(Request.Method.GET,
-                String.format(url, BuildConfig.ApiKey, textMsg, BuildConfig.BotId, BuildConfig.ExtId),
+                String.format(url, BuildConfig.ApiKey, textMsg.replaceAll(" ", "%20"), BuildConfig.BotId, BuildConfig.ExtId),
                 params,
                 callback);
     }
