@@ -1,5 +1,7 @@
 package example.com.chatbot.Controller;
 
+import android.util.Log;
+
 import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
@@ -39,28 +41,34 @@ public class NetworkController {
             e.printStackTrace();
         }
 
-        addNewRequest(Request.Method.GET, Router.sendMessage(), params, callback);
+        String url = Router.sendMessage();
+        addNewRequest(Request.Method.GET,
+                String.format(url, BuildConfig.ApiKey, textMsg, BuildConfig.BotId, BuildConfig.ExtId),
+                params,
+                callback);
     }
 
 
     public static void addNewRequest(int method, String url, JSONObject params, final NetworkCallback callback){
-        params = updateParams(PARAM_API_KEY, BuildConfig.ApiKey, params);
 
         JsonObjectRequest jsonObjReq = new JsonObjectRequest(method,
                 url, params,
                 new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
+                        Log.d("RESP", response.toString());
                         if(callback!=null) callback.onResponse(response);
                     }
                 }, new Response.ErrorListener() {
 
             @Override
             public void onErrorResponse(VolleyError error) {
+                Log.d("RESP", "" + error.getMessage());
                 if(callback!=null) callback.onError(error);
             }
         });
 
+        Log.d("Final Obj", jsonObjReq.toString());
         ChatBotApplication.getInstance().addToRequestQueue(jsonObjReq);
         // TODO - add request to JSON Q here
     }
