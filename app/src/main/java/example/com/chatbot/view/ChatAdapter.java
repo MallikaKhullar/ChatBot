@@ -1,4 +1,4 @@
-package example.com.chatbot.View;
+package example.com.chatbot.view;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -9,8 +9,8 @@ import android.widget.TextView;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import example.com.chatbot.Data.ChatMessageContainer;
-import example.com.chatbot.Data.ChatThread;
+import example.com.chatbot.model.ChatMessageContainer;
+import example.com.chatbot.model.ChatThread;
 import example.com.chatbot.R;
 
 /**

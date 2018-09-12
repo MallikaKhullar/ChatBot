@@ -1,4 +1,4 @@
-package example.com.chatbot.View;
+package example.com.chatbot.view;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -16,12 +16,14 @@ import org.json.JSONObject;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import example.com.chatbot.Controller.ChatController;
-import example.com.chatbot.Controller.NetworkController;
-import example.com.chatbot.Data.ChatMessageContainer;
-import example.com.chatbot.Data.ChatMessageData;
-import example.com.chatbot.Data.ChatThread;
+import example.com.chatbot.controllers.ChatController;
+import example.com.chatbot.controllers.NetworkController;
+import example.com.chatbot.controllers.SharedPreferencesController;
+import example.com.chatbot.model.ChatMessageContainer;
+import example.com.chatbot.model.ChatMessageData;
+import example.com.chatbot.model.ChatThread;
 import example.com.chatbot.R;
+import example.com.chatbot.utils.Utils;
 
 public class ChatActivity extends AppCompatActivity {
     int layout = R.layout.activity_chat; //just for reference
@@ -39,27 +41,34 @@ public class ChatActivity extends AppCompatActivity {
 
     @OnClick(R.id.btnSend)
     void sendClicked() {
-        Log.d("La", "yes");
         String getMsg = etMsg.getText().toString();
         etMsg.setText("");
-        if (getMsg.length() > 0) {
-            addChat(new ChatMessageContainer()
-                    .setSender(ChatMessageContainer.SenderType.SENDER_ME)
-                    .setMessage(new ChatMessageData(getMsg)), true); // my message
+        if (getMsg.length() > 0) sendNewChatMessage(getMsg);
+    }
 
-            ChatController.getInstance().sendMessage(getMsg, new NetworkController.NetworkCallback() {
-                @Override
-                public void onResponse(JSONObject response) {
-                    Log.d("La", "yelkjls");
-                    addChat(ChatMessageContainer.getFromJSON(response), true); // my message
-                }
+    void sendNewChatMessage(String getMsg){
+        if(!Utils.isNetworkAvailable()){
 
-                @Override
-                public void onError(VolleyError error) {
-                    // please type in a message TOAST / feedback
-                }
-            });
+            return;
         }
+
+        addChat(new ChatMessageContainer()
+                .setSender(ChatMessageContainer.SenderType.SENDER_ME)
+                .setMessage(new ChatMessageData(getMsg))
+                .setErrorMsg("")
+                .setSuccess(1), true); // my message
+
+        ChatController.getInstance().sendMessage(getMsg, new NetworkController.NetworkCallback() {
+            @Override
+            public void onResponse(JSONObject response) {
+                addChat(ChatMessageContainer.getFromJSON(response), true); // my message
+            }
+
+            @Override
+            public void onError(VolleyError error) {
+                // please type in a message TOAST / feedback
+            }
+        });
     }
 
     @Override
@@ -77,11 +86,12 @@ public class ChatActivity extends AppCompatActivity {
     }
 
     void fetchChats(){
+        thread = SharedPreferencesController.getInstance(this).getAllChats();
         //TODO IF CHATS
         // INFLATE CHATS
 
         // ELSE
-        showEmptyLayout(true);
+        showEmptyLayout(thread.getThreads() == null || thread.getThreads().size() == 0? true:false);
 
         linearLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
         recyclerChat.setLayoutManager(linearLayoutManager);
@@ -97,6 +107,7 @@ public class ChatActivity extends AppCompatActivity {
     void addChat(ChatMessageContainer newMessage, boolean scroll){
         showEmptyLayout(false);
         thread.getThreads().add(newMessage);
+        SharedPreferencesController.getInstance(this).addToAllChats(newMessage);
         Log.d("La", "kjjh");
         recyclerChat.getAdapter().notifyDataSetChanged();
         if(scroll)linearLayoutManager.scrollToPosition(thread.getThreads().size() - 1);

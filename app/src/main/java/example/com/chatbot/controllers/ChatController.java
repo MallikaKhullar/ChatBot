@@ -1,7 +1,4 @@
-package example.com.chatbot.Controller;
-
-import android.content.Context;
-import android.content.SharedPreferences;
+package example.com.chatbot.controllers;
 
 /**
  * Created by Mallika Priya Khullar on 12/09/18.

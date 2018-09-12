@@ -1,4 +1,4 @@
-package example.com.chatbot.Controller;
+package example.com.chatbot.controllers;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -8,8 +8,8 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import example.com.chatbot.Data.ChatMessageContainer;
-import example.com.chatbot.Data.ChatThread;
+import example.com.chatbot.model.ChatMessageContainer;
+import example.com.chatbot.model.ChatThread;
 
 /**
  * Created by Mallika Priya Khullar on 12/09/18.

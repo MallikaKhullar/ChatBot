@@ -1,4 +1,4 @@
-package example.com.chatbot.Controller;
+package example.com.chatbot.controllers;
 
 /**
  * Created by Mallika Priya Khullar on 12/09/18.

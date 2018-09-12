@@ -1,4 +1,4 @@
-package example.com.chatbot.Controller;
+package example.com.chatbot.controllers;
 
 import android.util.Log;
 
